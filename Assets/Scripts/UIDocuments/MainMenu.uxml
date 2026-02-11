@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="BACKGROUND" style="flex-grow: 1; align-items: center;">
+        <ui:Label text="I LOVE HUE" style="position: absolute; top: 50px; font-size: 100px; -unity-font-style: bold;"/>
+        <ui:VisualElement name="BUTTONS" style="flex-grow: 1; position: absolute; top: 300px; width: 800px; height: 600px;">
+            <ui:Button text="LEVEL 1" name="Level1" style="font-size: 50px;"/>
+            <ui:Button text="LEVEL 2" name="Level2" style="font-size: 50px;"/>
+            <ui:Button text="LEVEL 3" name="Level3" style="font-size: 50px;"/>
+            <ui:Button text="LEVEL 4" name="Level4" style="font-size: 50px;"/>
+            <ui:Button text="LEVEL 5" name="Level5" style="font-size: 50px;"/>
+            <ui:Button text="Quit" name="Quit" style="font-size: 50px; top: 50px;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
