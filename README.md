@@ -13,8 +13,11 @@ If you rescale the game, the UI does not scale accordingly.
 
 ## Known Issues
 Apparently, you can still exchange normal tiles with locked ones.  
-The code needs refactoring, LevelGenerator.cs both generates the level and handles the gameplay.  
+The code needs refactoring, LevelGenerator.cs both generates the level  
+and handles the gameplay.  
 Tiles are sometimes misaligned and I don't know why.
+On levels where menu buttons and non-locked tiles overlap, dragging  
+moves the tile to the new position without exchanging.
 
 #
 > Disclaimer:  
